@@ -1,12 +1,12 @@
 
 pipeline {
   
-          
+         agent any 
 
           stages{
             stage('Get from git project'){
   steps {
-    git 'https://github.com/MezghichGit/jenkinsGitHub'
+    git 'https://github.com/madou2501/jenkinsGitHub'
   }
             }
 
