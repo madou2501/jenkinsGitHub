@@ -6,7 +6,7 @@ pipeline {
           stages{
             stage('Get from git project'){
   steps {
-    git 'https://github.com/madou2501/jenkinsGitHub'
+    git 'https://github.com/MezghichGit/jenkinsGitHub'
   }
             }
 
